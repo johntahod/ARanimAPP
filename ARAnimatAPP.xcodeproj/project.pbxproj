@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93DB07B422BA04EB0088E88F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DB07B322BA04EB0088E88F /* AppDelegate.swift */; };
+		93DB07B622BA04EB0088E88F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DB07B522BA04EB0088E88F /* art.scnassets */; };
+		93DB07B822BA04EB0088E88F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DB07B722BA04EB0088E88F /* ViewController.swift */; };
+		93DB07BB22BA04EB0088E88F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DB07B922BA04EB0088E88F /* Main.storyboard */; };
+		93DB07BD22BA04EC0088E88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93DB07BC22BA04EC0088E88F /* Assets.xcassets */; };
+		93DB07C022BA04EC0088E88F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93DB07BE22BA04EC0088E88F /* LaunchScreen.storyboard */; };
+		93DB07CB22BA04EC0088E88F /* ARAnimatAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DB07CA22BA04EC0088E88F /* ARAnimatAPPTests.swift */; };
+		93DB07D622BA04EC0088E88F /* ARAnimatAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DB07D522BA04EC0088E88F /* ARAnimatAPPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93DB07C722BA04EC0088E88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DB07A822BA04EB0088E88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93DB07AF22BA04EB0088E88F;
+			remoteInfo = ARAnimatAPP;
+		};
+		93DB07D222BA04EC0088E88F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93DB07A822BA04EB0088E88F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93DB07AF22BA04EB0088E88F;
+			remoteInfo = ARAnimatAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93DB07B022BA04EB0088E88F /* ARAnimatAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARAnimatAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DB07B322BA04EB0088E88F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93DB07B522BA04EB0088E88F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		93DB07B722BA04EB0088E88F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93DB07BA22BA04EB0088E88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93DB07BC22BA04EC0088E88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93DB07BF22BA04EC0088E88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93DB07C122BA04EC0088E88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DB07C622BA04EC0088E88F /* ARAnimatAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARAnimatAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DB07CA22BA04EC0088E88F /* ARAnimatAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAnimatAPPTests.swift; sourceTree = "<group>"; };
+		93DB07CC22BA04EC0088E88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DB07D122BA04EC0088E88F /* ARAnimatAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARAnimatAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DB07D522BA04EC0088E88F /* ARAnimatAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAnimatAPPUITests.swift; sourceTree = "<group>"; };
+		93DB07D722BA04EC0088E88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93DB07AD22BA04EB0088E88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DB07C322BA04EC0088E88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DB07CE22BA04EC0088E88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93DB07A722BA04EB0088E88F = {
+			isa = PBXGroup;
+			children = (
+				93DB07B222BA04EB0088E88F /* ARAnimatAPP */,
+				93DB07C922BA04EC0088E88F /* ARAnimatAPPTests */,
+				93DB07D422BA04EC0088E88F /* ARAnimatAPPUITests */,
+				93DB07B122BA04EB0088E88F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93DB07B122BA04EB0088E88F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93DB07B022BA04EB0088E88F /* ARAnimatAPP.app */,
+				93DB07C622BA04EC0088E88F /* ARAnimatAPPTests.xctest */,
+				93DB07D122BA04EC0088E88F /* ARAnimatAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93DB07B222BA04EB0088E88F /* ARAnimatAPP */ = {
+			isa = PBXGroup;
+			children = (
+				93DB07B322BA04EB0088E88F /* AppDelegate.swift */,
+				93DB07B522BA04EB0088E88F /* art.scnassets */,
+				93DB07B722BA04EB0088E88F /* ViewController.swift */,
+				93DB07B922BA04EB0088E88F /* Main.storyboard */,
+				93DB07BC22BA04EC0088E88F /* Assets.xcassets */,
+				93DB07BE22BA04EC0088E88F /* LaunchScreen.storyboard */,
+				93DB07C122BA04EC0088E88F /* Info.plist */,
+			);
+			path = ARAnimatAPP;
+			sourceTree = "<group>";
+		};
+		93DB07C922BA04EC0088E88F /* ARAnimatAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				93DB07CA22BA04EC0088E88F /* ARAnimatAPPTests.swift */,
+				93DB07CC22BA04EC0088E88F /* Info.plist */,
+			);
+			path = ARAnimatAPPTests;
+			sourceTree = "<group>";
+		};
+		93DB07D422BA04EC0088E88F /* ARAnimatAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93DB07D522BA04EC0088E88F /* ARAnimatAPPUITests.swift */,
+				93DB07D722BA04EC0088E88F /* Info.plist */,
+			);
+			path = ARAnimatAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93DB07AF22BA04EB0088E88F /* ARAnimatAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DB07DA22BA04EC0088E88F /* Build configuration list for PBXNativeTarget "ARAnimatAPP" */;
+			buildPhases = (
+				93DB07AC22BA04EB0088E88F /* Sources */,
+				93DB07AD22BA04EB0088E88F /* Frameworks */,
+				93DB07AE22BA04EB0088E88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARAnimatAPP;
+			productName = ARAnimatAPP;
+			productReference = 93DB07B022BA04EB0088E88F /* ARAnimatAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93DB07C522BA04EC0088E88F /* ARAnimatAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DB07DD22BA04EC0088E88F /* Build configuration list for PBXNativeTarget "ARAnimatAPPTests" */;
+			buildPhases = (
+				93DB07C222BA04EC0088E88F /* Sources */,
+				93DB07C322BA04EC0088E88F /* Frameworks */,
+				93DB07C422BA04EC0088E88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93DB07C822BA04EC0088E88F /* PBXTargetDependency */,
+			);
+			name = ARAnimatAPPTests;
+			productName = ARAnimatAPPTests;
+			productReference = 93DB07C622BA04EC0088E88F /* ARAnimatAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93DB07D022BA04EC0088E88F /* ARAnimatAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DB07E022BA04EC0088E88F /* Build configuration list for PBXNativeTarget "ARAnimatAPPUITests" */;
+			buildPhases = (
+				93DB07CD22BA04EC0088E88F /* Sources */,
+				93DB07CE22BA04EC0088E88F /* Frameworks */,
+				93DB07CF22BA04EC0088E88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93DB07D322BA04EC0088E88F /* PBXTargetDependency */,
+			);
+			name = ARAnimatAPPUITests;
+			productName = ARAnimatAPPUITests;
+			productReference = 93DB07D122BA04EC0088E88F /* ARAnimatAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93DB07A822BA04EB0088E88F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "MinnCook Inc.";
+				TargetAttributes = {
+					93DB07AF22BA04EB0088E88F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					93DB07C522BA04EC0088E88F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 93DB07AF22BA04EB0088E88F;
+					};
+					93DB07D022BA04EC0088E88F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 93DB07AF22BA04EB0088E88F;
+					};
+				};
+			};
+			buildConfigurationList = 93DB07AB22BA04EB0088E88F /* Build configuration list for PBXProject "ARAnimatAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93DB07A722BA04EB0088E88F;
+			productRefGroup = 93DB07B122BA04EB0088E88F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93DB07AF22BA04EB0088E88F /* ARAnimatAPP */,
+				93DB07C522BA04EC0088E88F /* ARAnimatAPPTests */,
+				93DB07D022BA04EC0088E88F /* ARAnimatAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93DB07AE22BA04EB0088E88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DB07B622BA04EB0088E88F /* art.scnassets in Resources */,
+				93DB07C022BA04EC0088E88F /* LaunchScreen.storyboard in Resources */,
+				93DB07BD22BA04EC0088E88F /* Assets.xcassets in Resources */,
+				93DB07BB22BA04EB0088E88F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DB07C422BA04EC0088E88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DB07CF22BA04EC0088E88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93DB07AC22BA04EB0088E88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DB07B822BA04EB0088E88F /* ViewController.swift in Sources */,
+				93DB07B422BA04EB0088E88F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DB07C222BA04EC0088E88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DB07CB22BA04EC0088E88F /* ARAnimatAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DB07CD22BA04EC0088E88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DB07D622BA04EC0088E88F /* ARAnimatAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93DB07C822BA04EC0088E88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93DB07AF22BA04EB0088E88F /* ARAnimatAPP */;
+			targetProxy = 93DB07C722BA04EC0088E88F /* PBXContainerItemProxy */;
+		};
+		93DB07D322BA04EC0088E88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93DB07AF22BA04EB0088E88F /* ARAnimatAPP */;
+			targetProxy = 93DB07D222BA04EC0088E88F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93DB07B922BA04EB0088E88F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DB07BA22BA04EB0088E88F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93DB07BE22BA04EC0088E88F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93DB07BF22BA04EC0088E88F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93DB07D822BA04EC0088E88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93DB07D922BA04EC0088E88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93DB07DB22BA04EC0088E88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAnimatAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARAnimatAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93DB07DC22BA04EC0088E88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAnimatAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARAnimatAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93DB07DE22BA04EC0088E88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAnimatAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARAnimatAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARAnimatAPP.app/ARAnimatAPP";
+			};
+			name = Debug;
+		};
+		93DB07DF22BA04EC0088E88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAnimatAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARAnimatAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARAnimatAPP.app/ARAnimatAPP";
+			};
+			name = Release;
+		};
+		93DB07E122BA04EC0088E88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAnimatAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARAnimatAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARAnimatAPP;
+			};
+			name = Debug;
+		};
+		93DB07E222BA04EC0088E88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARAnimatAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARAnimatAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARAnimatAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93DB07AB22BA04EB0088E88F /* Build configuration list for PBXProject "ARAnimatAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DB07D822BA04EC0088E88F /* Debug */,
+				93DB07D922BA04EC0088E88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DB07DA22BA04EC0088E88F /* Build configuration list for PBXNativeTarget "ARAnimatAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DB07DB22BA04EC0088E88F /* Debug */,
+				93DB07DC22BA04EC0088E88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DB07DD22BA04EC0088E88F /* Build configuration list for PBXNativeTarget "ARAnimatAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DB07DE22BA04EC0088E88F /* Debug */,
+				93DB07DF22BA04EC0088E88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93DB07E022BA04EC0088E88F /* Build configuration list for PBXNativeTarget "ARAnimatAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DB07E122BA04EC0088E88F /* Debug */,
+				93DB07E222BA04EC0088E88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93DB07A822BA04EB0088E88F /* Project object */;
+}
